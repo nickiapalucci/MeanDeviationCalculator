@@ -1,15 +1,3 @@
-# Students Name = Nick Iapalucci
-
-# Date = December 4, 2014
-
-# Assignment 10.2, #10.9
-# Write a program that prompts the user to enter a list of numbers, and
-# displays the mean and standard deviations of these numbers
-# using custom functions
-
-# Honor Code: I pledge that this program represents my own program code.
-# I received help from no one in designing and debugging my program.
-
 # import math module for square root calcuations
 import math
 
