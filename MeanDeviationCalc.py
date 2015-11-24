@@ -1,5 +1,10 @@
 # import math module for square root calcuations
-import math
+# import sys module for version check
+import math, sys
+
+def versionCheck() :
+    if sys.version_info < (3, 4, 3) :
+        sys.exit("Please run this program using Python version 3.4")
 
 def welcome() :
     print("\n\nWelcome to Mean and Standard Deviation Calculator!\n\n"
@@ -44,6 +49,7 @@ def showResults(CalcMean, CalcDeviation) :
     print("The standard deviation is ", CalcDeviation, "\n")
 
 def main() :
+    versionCheck()
     welcome()
     numbers = getNumbers()
 # Check to see if list is empty.  Abort if it is.
