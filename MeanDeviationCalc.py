@@ -25,7 +25,7 @@ def getNumbers() :
             "and press [ENTER] ")
         try :
             value = float(value)
-        except :
+        except ValueError :
             done = True
             break
         count += 1
