@@ -61,4 +61,5 @@ def main() :
     else :
         print("\nNo entry was made.\n")
 
-main()
+if __name__ == "__main__":
+    main()
